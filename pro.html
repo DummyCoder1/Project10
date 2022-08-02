@@ -1,0 +1,432 @@
+body {
+  margin: 0;
+  font-family: Arial,sans-serif;
+  background-color: aliceblue;
+}
+
+/*  styles for hero unit  */
+.hero-container {
+  background-color: #556BBA;
+  padding: 20px;
+}
+
+.hero h1 {
+  line-height: 34px;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.hero p {
+  color: #fff;
+  font-size: 16px ;
+}
+
+.hero-image {
+  width: 95%;  
+  padding: 10px;  
+  display: inline-block;  
+}
+
+.hero-image img {  
+  width: 100%;  
+}
+
+.hero-content {
+  position: relative;
+  top: -22px;
+  width: 95%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.hero-content a.button {
+  background-color: #00b8ff;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: #3847ab;
+}
+
+.navigation ul {
+  margin: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navigation a {
+  color: #00b8ff;
+  font-weight: bold;
+}
+
+.navigation a.active {
+  text-decoration: none;
+}
+
+.main {
+  padding-left: 15px;
+}
+
+.main h3 {
+  padding-bottom : 0px;
+  margin-bottom: 2px;  
+}
+
+.main p {
+  padding-top : 0px;
+  margin-top: 2px;  
+}
+
+.main img {
+  width: 90%;
+  border: 2px solid #556BBA;
+}
+
+.main ol {
+   font-weight:bold;
+}
+
+.main .grid {
+  padding: 15px 0;
+}
+
+.main .grid-item {
+  width: 90%;
+  float: left;
+  padding: 15px;
+}
+
+.main .grid-item iframe {
+  width: 100%;
+  min-height: 200px;
+}
+
+.main .grid-item table {
+  width: 100%;
+  text-align: left;
+}
+
+.main .grid-item th {
+  vertical-align: top;
+  padding-right: 5px;
+}
+
+.main .grid-item tr {
+  padding: 5px 0;
+}
+
+@media (min-width: 480px) {
+  .main .grid-item {
+    width: 42%;
+  }
+  
+  .main img {
+    width: 400px;
+  }
+  
+  .hero-content {
+    width: 47%;
+  }
+  
+  .hero-image {
+    width: 36%;
+  }
+}
+
+@media (min-width: 768px) {
+  .main .grid-item {
+    width: 29%;
+    min-height: 340px;
+  }
+  
+  .hero-image {
+    width: 22%;
+  }
+}
+
+@media (min-width: 900px) {
+  .main .grid-item {
+    width: 21%;
+  }
+  
+  .main img {
+    width: 500px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My HTML Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="navigation">
+      <ul>
+        <li>
+          <a class="active" href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="photos.html">Photo Gallery</a>
+        </li>
+        <li>
+          <a href="channels.html">My Channels</a>
+        </li>
+        <li>
+          <a href="pets.html">My Pets</a>
+        </li>
+      </ul>
+    </section>      
+            
+    <section class="hero-container">
+        <div class="hero">
+          <div class="hero-image"> 
+             <img src="images/avocado.jpg" />
+          </div>
+          <div class="hero-content">
+            <h1>Welcome!</h1>
+            <p> 
+              View my photo gallery, browse my channels,
+              and read about my pets. 
+            </p>
+            <br>
+            <a href="photos.html" class="button">View Gallery</a>
+        </div>
+      </div>
+    </section>  
+
+  </body>
+</html> 
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial,sans-serif;
+  background-color: aliceblue;
+}
+
+/*  styles for hero unit  */
+.hero-container {
+  background-color: #556BBA;
+  padding: 20px;
+}
+
+.hero h1 {
+  line-height: 34px;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.hero p {
+  color: #fff;
+  font-size: 16px ;
+}
+
+.hero-image {
+  width: 95%;  
+  padding: 10px;  
+  display: inline-block;  
+}
+
+.hero-image img {  
+  width: 100%;  
+}
+
+.hero-content {
+  position: relative;
+  top: -22px;
+  width: 95%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.hero-content a.button {
+  background-color: #00b8ff;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: #3847ab;
+}
+
+.navigation ul {
+  margin: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navigation a {
+  color: #00b8ff;
+  font-weight: bold;
+}
+
+.navigation a.active {
+  text-decoration: none;
+}
+
+.main {
+  padding-left: 15px;
+}
+
+.main h3 {
+  padding-bottom : 0px;
+  margin-bottom: 2px;  
+}
+
+.main p {
+  padding-top : 0px;
+  margin-top: 2px;  
+}
+
+.main img {
+  width: 90%;
+  border: 2px solid #556BBA;
+}
+
+.main ol {
+   font-weight:bold;
+}
+
+.main .grid {
+  padding: 15px 0;
+}
+
+.main .grid-item {
+  width: 90%;
+  float: left;
+  padding: 15px;
+}
+
+.main .grid-item iframe {
+  width: 100%;
+  min-height: 200px;
+}
+
+.main .grid-item table {
+  width: 100%;
+  text-align: left;
+}
+
+.main .grid-item th {
+  vertical-align: top;
+  padding-right: 5px;
+}
+
+.main .grid-item tr {
+  padding: 5px 0;
+}
+
+@media (min-width: 480px) {
+  .main .grid-item {
+    width: 42%;
+  }
+  
+  .main img {
+    width: 400px;
+  }
+  
+  .hero-content {
+    width: 47%;
+  }
+  
+  .hero-image {
+    width: 36%;
+  }
+    body {
+          background: #34a7b2;
+        }
+        .xs, .lg, .xl {
+          display: none;
+        }
+        .sm {
+          display: block;
+        }
+      }
+}
+
+@media (min-width: 768px) {
+  .main .grid-item {
+    width: 29%;
+    min-height: 340px;
+  }
+  
+  .hero-image {
+    width: 22%;
+  }
+     body {
+          background: #729d39;
+        }
+        .xs, .sm, .xl { 
+          display: none;
+        }
+        .lg {
+          display: block;
+        }
+}
+
+@media (min-width: 900px) {
+  .main .grid-item {
+    width: 21%;
+  }
+  
+  .main img {
+    width: 500px;
+  }
+    body {
+          background: #f3a333;
+        }
+        .xs, .sm, .lg {
+          display: none;
+        }
+        .xl {
+          display: block;
+        }
+}
+
